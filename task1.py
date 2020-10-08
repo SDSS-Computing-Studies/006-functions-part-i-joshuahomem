@@ -5,7 +5,12 @@ def sum(a,b):
     # a : float 
     # b : float
     # return value: returns the sum of the 2 numbers
+    number=a+b
+    return number
 
+y=sum(11,1.5)
+x=sum(3,4)
+print(float(y) ,float(x))
 
 
 #this should return a value of 7
